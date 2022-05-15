@@ -1,4 +1,5 @@
 function getSubmit() {
+    confirm("Sure ?");
     document.getElementById("table").style.visibility = "visible";
     document.getElementById("showButton").innerHTML = "Hide Data";
     document.getElementById("showButton").onclick = hideSubmit;

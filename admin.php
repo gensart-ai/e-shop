@@ -21,7 +21,7 @@
 
     <behavior action="" method="post">
         <button class="m-1 btn btn-secondary" id="showButton" onclick="getSubmit();">Show Data</button>
-        <button class="m-1 btn btn-primary">Tambah Data</button>
+        <button class="m-1 btn btn-primary" onclick="insertMenu">Tambah Data</button>
         <button class="m-1 btn btn-warning">Update Data</button>
         <button class="m-1 btn btn-danger">Delete Data</button>
     </behavior>
