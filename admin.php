@@ -20,10 +20,10 @@
     <p class="m-2 text-center">Specify what you want to in e-shop database :</p>
 
     <behavior action="" method="post">
-        <button class="m-1 btn btn-secondary" id="showButton" onclick="getSubmit();">Show Data</button>
-        <button class="m-1 btn btn-primary" onclick="insertMenu">Tambah Data</button>
-        <button class="m-1 btn btn-warning">Update Data</button>
-        <button class="m-1 btn btn-danger">Delete Data</button>
+        <button class="m-1 btn btn-secondary" onclick="getSubmit();" id="showButton">Show Data</button>
+        <button class="m-1 btn btn-primary" onclick="movePage('insert.php');">Tambah Data</button>
+        <button class="m-1 btn btn-warning" onclick="movePage('update.php');">Update Data</button>
+        <button class="m-1 btn btn-danger" onclick="movePage('delete.php');">Delete Data</button>
     </behavior>
     <table class="table" id="table" style="visibility:hidden;">
         <thead>
